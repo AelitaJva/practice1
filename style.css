@@ -1,0 +1,123 @@
+.firstP {
+    color: red;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 100px;
+}
+
+.secondP {
+   border: 7px pink dashed;
+   border-radius: 12px;
+   width: 80px;
+   padding: 20px;
+}
+
+.bigRed {
+    padding: 20px;
+    border: 12px black dashed;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+.littleBlue {
+    background-color: lightblue;
+    border: 1px black solid;
+    padding: 10px;
+}
+
+.yellowSquare {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border: 0;
+
+}
+
+.orangeCircle {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.box {
+    background-color: aqua;
+    height: 50vh;
+    width: 50vw;
+}
+
+.boxSecond {
+    background-color: blueviolet;
+    width: 25vw;
+    height: 25vh;
+}
+
+.boxThird p {
+    width: 30%;
+}
+
+p {
+    font-size: 20px;
+}
+
+.moreBigger {
+    font-size: 5em;
+}
+
+/* 16px is 1em REM */
+
+/* In our browcer colors measured by how much is red: from 0 to 255 */
+
+/* rgb - red green blue */
+
+/* hux code
+ff - 15 time 15 shades of color */ 
+
+/* color picker - use for specific color */
+
+
+.card {
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width:25%;
+}
+
+.card.warning {
+    background-color: orange;
+    text-align: center;
+}
+
+.warning h3 {
+    color: darkred;
+    
+}
+
+.warning p {
+    font-weight: 700px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.devP p {
+    font-weight: 700;
+}
+
+ .blueThanRed {
+    color: purple;
+}
+
+/* following siblings */
+.blueThanRed ~ p {
+    color: red;
+}
+
+/* next  sibling*/
+.blueThanRed + p {
+    color: green;
+}
